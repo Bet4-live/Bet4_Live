@@ -3,169 +3,231 @@
   <head>
     <title>CSS 7</title>
     <style type="text/css">
-    .araba{ 
-      width: 600px; 
-      height: 205px; 
-      margin: 100px auto;
-    }
-    .sirenler{ 
-      width: 60px; 
-      height: 30px; 
-      margin: 0 auto;
-    }
-    .camlar{ 
-      width: 404px; 
-      height: 82px; 
-      margin: 0 auto; 
-    }
-    .arka{ 
-      width: 25px; 
-      height: 90px; 
-      float: left; 
-      margin: 20px 0 0 0; 
-    }
-    .solkaporta{ 
-      width: 273px; 
-      height: 100px; 
-      float: left; 
-      background: #03f; 
-      border: 1px solid #009;
-      border-radius: 30px 0 0 20px; 
-      font: 60px Arial; color: #fff; 
-      text-align: right; 
-      padding: 20px 0 0 0;
-    }
-    .sagkaporta{ 
-      width: 290px; 
-      height: 100px; 
-      float: left;
-      background: #03f; 
-      border: 1px solid #009;
-      border-radius: 0 30px 20px 0; 
-      font: 60px Arial; color: #fff; 
-      padding: 20px 0 0 0;
-    }
-    .far{ 
-      width: 6px; 
-      height: 60px; 
-      float: left; 
-      background: #ff9;
-      border-top: 2px solid #fc3;
-      border-right: 2px solid #fc3; 
-      border-bottom: 2px solid #fc3;
-      border-radius: 0 6px 6px 0;
-      margin: 30px 0 0 0; 
-    }
-    .lastiksol{ 
-      width: 80px; 
-      height: 80px; 
-      float: left; 
-      background: #000; 
-      margin: -30px 0 0 100px;
-      border-radius: 40px 40px 40px 40px;
-    }
-    .lastiksag{ 
-      width: 80px; 
-      height: 80px; 
-      float: left; 
-      background: #000; 
-      margin: -30px 0 0 270px; 
-      border-radius: 40px 40px 40px 40px;
-    }
-    .solsiren{ 
-      width: 30px; 
-      height: 30px; 
-      background: #03f;
-      float: left;
-      border-radius: 15px 0 0 0; 
-    }
-    .sagsiren{ 
-      width: 30px; 
-      height: 30px; 
-      background: #f00; 
-      float: left;
-      border-radius: 0 15px 0 0;
-    }
-    .solcam{ 
-      width: 200px; 
-      height:  80px; 
-      background: #f3f3f3; 
-      float: left;
-      border-left: 1px solid #ccc;
-      border-top: 1px solid #ccc;
-      border-right: 1px solid #ccc;
-      border-radius: 70px 0 0 0;
-    }
-    .sagcam{ 
-      width: 200px; 
-      height: 80px; 
-      background: #f3f3f3; 
-      float: left;
-      border-right: 1px solid #ccc;
-      border-top: 1px solid #ccc;
-      border-radius: 0 70px 0 0;
-    }
-    .stoplamba{ 
-      width: 6px; 
-      height: 60px; 
-      background: #900; 
-      margin: 6px 0 0 19px; 
-    }
-    .egzoz{ 
-      width: 25px; 
-      height: 10px; 
-      background:  #000; 
-      margin: 5px 0 0 0;
-    }
-    .jant{ 
-      width: 60px; 
-      height: 60px; 
-      background:  #ddd;
-      margin: 10px  0 0 10px; 
-      border-radius: 30px 30px 30px 30px;
-    }
-    .solkapikolu{ 
-      width: 15px; 
-      height: 4px; 
-      background: #000; margin: 20px 0 0 70px; 
-    }
-    .sagkapikolu{ 
-      width: 15px; 
-      height: 4px; 
-      background: #000; 
-      margin: 20px 0 0 70px; 
-    }
-
+      .otobus{ 
+        width: 400px; 
+        height: 600px; 
+        margin: 45px auto; 
+      }
+      .anten {
+        width: 100px;
+        height: 2px;
+        background: #000;
+        margin: 100px auto 0 auto;
+        transform: rotate(
+        290deg
+        );
+      } 
+      .solayna{ 
+        width: 39px; 
+        height: 25px; 
+        background: #c9f; 
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000; 
+        border-radius: 5px 0 0 5px; 
+        margin: 240px 0 0 0; 
+        float: left;
+      }
+      .cam{ 
+        width: 318px; 
+        height: 230px; 
+        border: 1px solid #000;  
+        border-radius: 15px 15px 0 0; 
+        float: left; margin: 45px 0 0 0;
+      }
+      .sagayna{ 
+        width: 39px; 
+        height: 25px; 
+        background: #c9f; 
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000; 
+        border-radius: 0 5px 5px 0; 
+        margin: 240px 0 0 0; 
+        float: left;
+      }
+      .kaporta{ 
+        width: 318px; 
+        height: 120px; 
+        background: #c9f;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000; 
+        border-radius: 0 0 10px 10px; 
+        float: left; 
+        margin: 0 0 0 40px; 
+        font: bold 14px Arial; 
+        text-align: center;
+      }
+      .sollastik{ 
+        width: 50px; 
+        height: 40px; 
+        background: #000;
+        border-radius: 0 0 5px 5px; 
+        float: left;
+        margin: 0 0 0 80px;
+      }
+      .saglastik{ 
+        width: 50px; 
+        height: 40px; 
+        background: #000;
+        border-radius: 0 0 5px 5px; 
+        float: left;
+        margin: 0 0 0 140px;
+      }
+      .dikiz{ 
+        width: 70px; 
+        height: 20px; 
+        background: #ccc; 
+        border: 1px solid #000; 
+        border-radius: 5px; 
+        margin: 30px auto 0 auto;
+      }
+      .solkoltuk{ 
+        width: 120px; 
+        height: 120px; 
+        background: #90f; 
+        border-radius: 10px 10px 0 0; 
+        margin: 58px 0 0 20px; 
+        float: left;
+      }
+      .sagkoltuk{ 
+        width: 120px; 
+        height: 120px; 
+        background: #90f; 
+        border-radius: 10px 10px 0 0; 
+        margin: 58px 0 0 37px; 
+        float: left;
+      }
+      .solsilecek{ 
+        width: 110px; 
+        height: 3px; 
+        background: #000; 
+        margin: 118px 0 0 20px;
+      }
+      .direksiyon{ 
+        width: 60px; 
+        height: 30px; 
+        border-left: 8px solid #000;
+        border-right: 8px solid #000;
+        border-top: 8px solid #000; 
+        border-radius: 40px 40px 0 0; 
+        margin: 90px 0 0 20px;
+      }
+      .sagsilecek{ 
+       width: 110px; 
+       height: 3px; 
+       background: #000; 
+       margin: -10px 0 0 -10px;
+      }
+      .solfar{ 
+        width: 50px; 
+        height: 50px; 
+        background: #ff9;
+        border-radius: 25px; 
+        margin: 30px 0 0 20px; 
+        box-shadow: 5px 5px 15px #f7d3ac, -5px -5px  15px #f7d3ac;
+        float: left;
+      }
+      .kaportaorta{ 
+        width: 150px; 
+        height: 100px; 
+        float: left; 
+        margin: 10px 0 0 12px;
+      }
+      .sagfar{ 
+        width: 50px; 
+        height: 50px; 
+        background: #ff9;
+        border-radius: 25px; 
+        margin: 30px 0 0 12px; 
+        box-shadow: 5px 5px 15px #f7d3ac, -5px -5px  15px #f7d3ac;
+        float: left;
+      }
+      .izgara1{ 
+        width: 70px; 
+        height: 3px; 
+        background: #444; 
+        margin: 25px auto 0 auto;
+      }
+      .izgara2{ 
+        width: 80px; 
+        height: 3px; 
+        background: #444; 
+        margin: 5px auto 0 auto;
+      }
+      .izgara3{ 
+        width: 90px; 
+        height: 3px; 
+        background: #444; 
+        margin: 5px auto 0 auto;
+      }
+      .izgara4{ 
+        width: 100px; 
+        height: 3px; 
+        background: #444; 
+        margin: 5px auto 0 auto;
+      }
+      .plaka{ 
+        width: 120px; 
+        height: 20px; 
+        background: #fff; 
+        border: 1px solid #000; 
+        margin: 25px auto 0 auto;
+      }
+      .plakasol{ 
+        width: 15px; 
+        height: 15px; 
+        background: #06f; 
+        float: left; 
+        font: 10px Arial; color: #fff; 
+        text-align: center; 
+        padding: 5px 0 0 0;
+      }
+      .plakasag{ 
+        width: 105px; 
+        height: 20px; 
+        float: left; 
+        font: bold 14px Arial; 
+        text-align: center; 
+      }
     </style>
   </head>
   <body>
-    <div class="araba">
-      <div class="sirenler">
-        <div class="solsiren"></div>
-        <div class="sagsiren"></div>
-      </div>
-      <div class="camlar">
-        <div class="solcam"></div>
-        <div class="sagcam"></div>
-      </div>
-      <div class="arka">
-        <div class="stoplamba"></div>
-        <div class="egzoz"></div>
-      </div>
-      <div class="solkaporta">
-        <div class="solkapikolu"></div>PO
-      </div>
-      <div class="sagkaporta">
-        <div class="sagkapikolu"></div>LİS
-      </div>
-      <div class="far"></div>
-      <div class="lastiksol">
-        <div class="jant"></div>
-      </div>
-      <div class="lastiksag">
-        <div class="jant"></div>
-      </div>
+     <div class="otobus">
+       <div class="anten"></div>
+       <div class="solayna"></div>
+       <div class="cam">
+         <div class="dikiz"></div>
+         <div class="solkoltuk">
+           <div class="solsilecek"></div>
+         </div>
+         <div class="sagkoltuk">
+             <div class="direksiyon"></div>
+             <div class="sagsilecek"></div>
+         </div>
+         </div>
+       <div class="sagayna"></div>
+       <div class="kaporta">
+         <div class="solfar"></div>
+         <div class="kaportaorta">TOGG
+           <div class="izgara1"></div>
+           <div class="izgara2"></div>
+           <div class="izgara3"></div>
+           <div class="izgara4"></div>
+           <div class="plaka">
+             <div class="plakasol">TR</div>
+             <div class="plakasag">63 GS 1905</div>
 
-    </div>
+           </div>
+         </div>
+         <div class="sagfar"></div>
+         
+       </div>
+       <div class="sollastik"></div>
+       <div class="saglastik"></div>
+
+       
+       </div>  
   </body>
 </html>
