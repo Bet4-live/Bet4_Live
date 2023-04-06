@@ -1,3 +1,3 @@
-# projeler2
+# This is my first website 
 
-https://projeler2.vercel.app
+https://bet4-live.vercel.app/
