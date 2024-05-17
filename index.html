@@ -1,51 +1,117 @@
-<html>
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-<link rel="shortcut icon" href="resimler/icon.png" />
-<title>Ana Sayfa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resimler/icon.png" />
+    <title>Kişisel Web Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            width: 95%;
+            max-width: 1200px;
+            height: 95%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 300px;
+            background-color: #456789;
+            color: white;
+            overflow-y: auto;
+            height: 100%;
+            padding: 0;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 0;
+            background-color: #456789;
+            cursor: pointer;
+        }
+        .sidebar a:hover {
+            background-color: #5588bb;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section-content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-<table border="1" cellspaning="0" cellpadding="0" align="center">
-
-<tr>
-<td width="300" height="900">
-<table width="300" border="0">
-<tr><td class="site1" height="25" bgcolor="#456789"><a href="site 1.html" target="cerceve">Site 1</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 2.html" target="cerceve">Site 2</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 3.html" target="cerceve">Site 3</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 4.html" target="cerceve">Site 4</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 5.html" target="cerceve">Site 5</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 6.html" target="cerceve">Site 6</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 7.html" target="cerceve">Site 7</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 8.html" target="cerceve">Site 8</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 11.html" target="cerceve">Site 9</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 13.html" target="cerceve">Site 10</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 14.html" target="cerceve">Site 11</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 15.html" target="cerceve">Site 12</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 16.html" target="cerceve">Site 13</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 17.html" target="cerceve">Site 14</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 20.html" target="cerceve">Site 15</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 21.html" target="cerceve">Site 16</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 22.html" target="cerceve">Site 17</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site 23.html" target="cerceve">Site 18</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site24.html" target="cerceve">Site 19</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="site25.html" target="cerceve">Site 20</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://cakmaapple.vercel.app" target="_blank">Çakma Apple Git</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://iphone-mocha.vercel.app" target="_blank">Çakma İphone Git</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://cokgenolusturma.vercel.app" target="_blank">Çokgen Oluştur</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://istiklalmarsi.vercel.app" target="_blank">İstiklal Marşı</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://solider.vercel.app" target="_blank">Slider</a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://kayitfrom.vercel.app" target="_blank">Örnek Kayit Formu</a></td></tr> 
-<tr><td height="25" bgcolor="#456789"><a href="https://form2-alpha.vercel.app" target="_blank">Örnek Kayit Formu 2</a></td></tr> 
-<tr><td height="25" bgcolor="#456789"><a href="https://audio-and-video-delta.vercel.app" target="_blank">Ses ve video </a></td></tr>
-<tr><td height="25" bgcolor="#456789"><a href="https://fotbol.vercel.app" target="_blank">Football Field</a></td></tr> 
-</table>    
-</td>
-<td width="900">
-<iframe width="900" height="900" frameborder="0" name="cerceve" scrolling="" class="cerceve"></iframe>
-
-</td>
-</tr>
-
-</table>
+    <div class="container">
+        <div class="sidebar">
+            <a href="site 1.html" target="cerceve">Site 1</a>
+            <a href="site 2.html" target="cerceve">Site 2</a>
+            <a href="site 3.html" target="cerceve">Site 3</a>
+            <a href="site 4.html" target="cerceve">Site 4</a>
+            <a href="site 5.html" target="cerceve">Site 5</a>
+            <a href="site 6.html" target="cerceve">Site 6</a>
+            <a href="site 7.html" target="cerceve">Site 7</a>
+            <a href="site 8.html" target="cerceve">Site 8</a>
+            <a href="site 11.html" target="cerceve">Site 9</a>
+            <a href="site 13.html" target="cerceve">Site 10</a>
+            <a href="site 14.html" target="cerceve">Site 11</a>
+            <a href="site 15.html" target="cerceve">Site 12</a>
+            <a href="site 16.html" target="cerceve">Site 13</a>
+            <a href="site 17.html" target="cerceve">Site 14</a>
+            <a href="site 20.html" target="cerceve">Site 15</a>
+            <a href="site 21.html" target="cerceve">Site 16</a>
+            <a href="site 22.html" target="cerceve">Site 17</a>
+            <a href="site 23.html" target="cerceve">Site 18</a>
+            <a href="site24.html" target="cerceve">Site 19</a>
+            <a href="site25.html" target="cerceve">Site 20</a>
+            <a href="https://cakmaapple.vercel.app" target="_blank">Çakma Apple Git</a>
+            <a href="https://iphone-mocha.vercel.app" target="_blank">Çakma İphone Git</a>
+            <a href="https://cokgenolusturma.vercel.app" target="_blank">Çokgen Oluştur</a>
+            <a href="https://istiklalmarsi.vercel.app" target="_blank">İstiklal Marşı</a>
+            <a href="https://solider.vercel.app" target="_blank">Slider</a>
+            <a href="https://kayitfrom.vercel.app" target="_blank">Örnek Kayit Formu</a> 
+            <a href="https://form2-alpha.vercel.app" target="_blank">Örnek Kayit Formu 2</a> 
+            <a href="https://audio-and-video-delta.vercel.app" target="_blank">Ses ve video </a>
+            <a href="https://fotbol.vercel.app" target="_blank">Football Field</a>
+            </div>
+        <iframe width="900" height="900" frameborder="0" name="cerceve" scrolling="" class="cerceve"></iframe>
+        
+    </div>
+    <script>
+        function showContent(content) {
+            document.getElementById('header').innerHTML = '';  // Hoş Geldiniz başlığını kaldır
+            document.getElementById('main-content').innerHTML = `
+                <div class="section-content">
+                    <p>${content}</p>
+                </div>
+            `;
+        }
+    </script>
 </body>
 </html>
